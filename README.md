@@ -32,7 +32,7 @@ $env:WATCHER_POLL_SECONDS="2.0"
 ## Run
 
 ```powershell
-python .\comfy_queue_watcher_tg.py
+python .\comfy_queue_watcher.py
 ```
 
 When the queue transitions from busy to empty, you will receive a Telegram
@@ -86,9 +86,9 @@ source "$VENV_DIR/bin/activate"
 # Start Queue Watcher
 # =========================
 # Stop previous watcher if any (optional but useful)
-pkill -f "comfy_queue_watcher_tg.py" >/dev/null 2>&1 || true
+pkill -f "comfy_queue_watcher.py" >/dev/null 2>&1 || true
 
-nohup python /workspace/comfy_queue_watcher_tg.py >> /workspace/queue_watcher.log 2>&1 &
+nohup python /workspace/comfy_queue_watcher.py >> /workspace/queue_watcher.log 2>&1 &
 echo "[INFO] Queue watcher started (log: /workspace/queue_watcher.log)"
 
 # =========================
