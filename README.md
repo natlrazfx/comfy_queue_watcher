@@ -78,3 +78,10 @@ nohup python ../comfy_queue_watcher.py >> ../queue_watcher.log 2>&1 &
   @userinfobot to get your user ID.
 - For groups: add the bot to the group, send a message, and read updates via the
   Bot API (or use a helper bot) to get the group chat ID.
+
+## Don@tes
+**If any of this turns out to be useful for you - I’m glad.  
+And if you feel like supporting it:  
+☕ 1–2 coffees are more than enough ☺️**  
+
+[Click to Buy me a Coffee](buymeacoffee.com/natlrazfx)**
