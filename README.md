@@ -3,6 +3,8 @@
 Watches a running ComfyUI instance and sends a Telegram message when the queue
 finishes (all running + pending jobs are done).
 
+[![Watch the video](https://img.youtube.com/vi/4BUMfJ3zpeo/maxresdefault.jpg)](https://youtu.4BUMfJ3zpeo)
+
 ## Requirements
 
 - Python 3.9+
