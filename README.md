@@ -86,4 +86,4 @@ nohup python ../comfy_queue_watcher.py >> ../queue_watcher.log 2>&1 &
 And if you feel like supporting it:  
 ☕ 1–2 coffees are more than enough ☺️**  
 
-[Click to Buy me a Coffee](buymeacoffee.com/natlrazfx)**
+[Click to Buy me a Coffee](https://buymeacoffee.com/natlrazfx)
